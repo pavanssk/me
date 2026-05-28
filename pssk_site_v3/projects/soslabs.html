@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOSLabs.ai — Pavan Kanwar</title>
+<meta name="description" content="Life-critical AI safety platform — interaction design for emergencies">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body><nav>
+  <a href="../index.html" class="nav-brand">Pavan Kanwar</a>
+
+  <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links">
+    <li class="nav-has-dropdown">
+      <a href="../index.html#work" class="nav-dropdown-trigger">Work <span class="nav-chevron">▾</span></a>
+      <ul class="nav-dropdown">
+        <li class="dropdown-group-label">AI &amp; Startups</li>
+        <li><a href="soslabs.html">SOSLabs.ai</a></li>
+        <li><a href="prevulabs.html">PreVULabs.ai</a></li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-group-label">Enterprise &amp; Consulting</li>
+        <li><a href="google.html">Google gTech</a></li>
+        <li><a href="mckinsey.html">McKinsey &amp; Novartis</a></li>
+        <li><a href="hcl.html">HCL Technologies</a></li>
+        <li><a href="osf.html">Hargreaves Lansdown</a></li>
+        <li><a href="pwc.html">PwC</a></li>
+        <li><a href="trowe.html">T. Rowe Price</a></li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-group-label">Early Work</li>
+        <li><a href="agencyvui.html">Agency VUi</a></li>
+        <li><a href="rentr.html">Rentr</a></li>
+        <li><a href="gumsaver.html">Gumsaver</a></li>
+        <li><a href="sparbar.html">Sparbar</a></li>
+      </ul>
+    </li>
+    <li><a href="../index.html#experience">Experience</a></li>
+    <li><a href="../index.html#stack">Stack</a></li>
+    <li><a href="../index.html#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-mobile-drawer" aria-hidden="true">
+    <ul class="nav-mobile-links">
+      <li class="mobile-group-label">Work</li>
+      <li><a href="soslabs.html">SOSLabs.ai</a></li>
+      <li><a href="prevulabs.html">PreVULabs.ai</a></li>
+      <li><a href="google.html">Google gTech</a></li>
+      <li><a href="mckinsey.html">McKinsey &amp; Novartis</a></li>
+      <li><a href="hcl.html">HCL Technologies</a></li>
+      <li><a href="osf.html">Hargreaves Lansdown</a></li>
+      <li><a href="pwc.html">PwC</a></li>
+      <li><a href="trowe.html">T. Rowe Price</a></li>
+      <li><a href="agencyvui.html">Agency VUi</a></li>
+      <li><a href="rentr.html">Rentr</a></li>
+      <li><a href="gumsaver.html">Gumsaver</a></li>
+      <li><a href="sparbar.html">Sparbar</a></li>
+      <li class="mobile-divider"></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#stack">Stack</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav><div class="case-hero">
+  <div class="case-hero-bg" style="background:linear-gradient(135deg,#020810 0%,#0A1E3A 50%,#1A3A5C 100%);"></div>
+  <div class="case-hero-overlay"></div>
+  <div class="case-hero-content">
+    <p class="case-eyebrow">2026 — Present · Life-Critical AI · London</p>
+    <h1 class="case-title">SOS<br>Labs.ai</h1>
+    <p class="case-subtitle">Designing the interaction model for an AI that must be trusted in under three seconds — when someone&#8217;s life may depend on it.</p>
+    <div class="case-meta"><div class="meta-item"><div class="meta-label">Role</div><div class="meta-value">Founding AI Software Engineer</div></div><div class="meta-item"><div class="meta-label">Platform</div><div class="meta-value">iOS · Android · Web · Hardware</div></div><div class="meta-item"><div class="meta-label">Stack</div><div class="meta-value">LiveKit WebRTC · GCP · Vertex AI · Loihi 2</div></div></div>
+  </div>
+</div><div class="case-body"><div class="case-section">
+  <div class="section-tag">The Problem</div>
+  <h2>When the AI gets the interaction wrong, someone gets hurt.</h2>
+  <p>Most product design problems are forgiving. A confusing onboarding flow costs you a conversion. SOSLabs.ai operates in a different register — <strong>a user in distress, potentially in danger, relying on an AI agent to understand their situation and respond correctly</strong>. The margin for error is zero.</p><p>The core challenge: how do you design an AI that a frightened person trusts <em>immediately</em>? How does it signal it&#8217;s listening without requiring input? How does it communicate uncertainty without causing panic or delay? How does it hand off to emergency services at precisely the right moment?</p>
+</div>
+<div class="case-section"><div class="pull-quote"><p>Every interaction decision carries real-world consequence. There is no &#8216;iterate later&#8217; when the product is someone&#8217;s safety.</p></div></div>
+<div class="case-section">
+  <div class="section-tag">The Approach</div>
+  <h2>Designing for a user who cannot focus on their phone.</h2>
+  <p>The primary constraint: <strong>the user may be unable to look at, speak to, or interact with the device</strong>. The AI must infer context from ambient audio, motion, and signal patterns. The interface exists not as a primary surface but as a reassurance layer and override mechanism.</p><p>I designed a severity classification system that surfaces progressively — from passive monitoring through gentle confirmation prompts to full emergency escalation — with each transition point requiring explicit design decisions about tone, timing, and modality.</p><p>The voice detection system required designing for <em>distress vocalisations</em> specifically — the acoustic signatures of panic, pain, and fear. How the system responds to a detected distress signal, and how it communicates that response, required dozens of iteration cycles against real-world edge cases.</p>
+</div>
+<div class="case-section"><div class="metrics"><div class="metric"><div class="metric-number">&lt;1s</div><div class="metric-label">Distress detection latency — no cloud dependency</div></div><div class="metric"><div class="metric-number">72h</div><div class="metric-label">Extended battery life via neuromorphic SNN spike-timing optimisation</div></div><div class="metric"><div class="metric-number">3</div><div class="metric-label">Seconds to establish AI trust with a user under duress</div></div></div></div>
+<div class="case-section">
+  <div class="section-tag">The Build</div>
+  <h2>Founding AI Software Engineer across every surface.</h2>
+  <p>The platform runs on <strong>LiveKit WebRTC</strong> for zero-latency multi-device streaming, <strong>GCP and Vertex AI</strong> for cloud processing, and a <strong>neuromorphic SNN on Intel Loihi 2</strong> for always-on edge inference at minimal power draw.</p><p>Full-stack architecture directed personally — backend (Python, FastAPI), frontend (React, TypeScript), edge (neuromorphic SNN) — with <strong>Claude, Cursor and AntiGravity</strong> executing across the stack at 10x delivery velocity.</p>
+</div>
+<div class="case-section"><div class="tag-list"><span class="tag">Voice Detection</span><span class="tag">Distress Classification</span><span class="tag">Agentic AI UX</span><span class="tag">Edge Computing</span><span class="tag">Neuromorphic SNN</span><span class="tag">LiveKit WebRTC</span><span class="tag">iOS · Android</span><span class="tag">Hardware UI</span><span class="tag">Safety-Critical Design</span></div></div></div><a href="prevulabs.html" class="next-project">
+  <div><div class="next-label">Next Project</div><div class="next-title">PreVULabs.ai</div></div>
+  <div class="next-arrow">→</div>
+</a><footer>
+  <p>© 2026 Pavan Kanwar · pavankanwar.co.uk</p>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/pavkanwar" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:pavank101@gmail.com">Email</a>
+  </div>
+</footer>
+<script src="../assets/main.js"></script>
+</body></html>

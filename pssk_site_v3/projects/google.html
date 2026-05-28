@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google gTech — Strong Coffee — Pavan Kanwar</title>
+<meta name="description" content="Redesigning revenue-critical internal tools at Google">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body><nav>
+  <a href="../index.html" class="nav-brand">Pavan Kanwar</a>
+
+  <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links">
+    <li class="nav-has-dropdown">
+      <a href="../index.html#work" class="nav-dropdown-trigger">Work <span class="nav-chevron">▾</span></a>
+      <ul class="nav-dropdown">
+        <li class="dropdown-group-label">AI &amp; Startups</li>
+        <li><a href="soslabs.html">SOSLabs.ai</a></li>
+        <li><a href="prevulabs.html">PreVULabs.ai</a></li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-group-label">Enterprise &amp; Consulting</li>
+        <li><a href="google.html">Google gTech</a></li>
+        <li><a href="mckinsey.html">McKinsey &amp; Novartis</a></li>
+        <li><a href="hcl.html">HCL Technologies</a></li>
+        <li><a href="osf.html">Hargreaves Lansdown</a></li>
+        <li><a href="pwc.html">PwC</a></li>
+        <li><a href="trowe.html">T. Rowe Price</a></li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-group-label">Early Work</li>
+        <li><a href="agencyvui.html">Agency VUi</a></li>
+        <li><a href="rentr.html">Rentr</a></li>
+        <li><a href="gumsaver.html">Gumsaver</a></li>
+        <li><a href="sparbar.html">Sparbar</a></li>
+      </ul>
+    </li>
+    <li><a href="../index.html#experience">Experience</a></li>
+    <li><a href="../index.html#stack">Stack</a></li>
+    <li><a href="../index.html#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-mobile-drawer" aria-hidden="true">
+    <ul class="nav-mobile-links">
+      <li class="mobile-group-label">Work</li>
+      <li><a href="soslabs.html">SOSLabs.ai</a></li>
+      <li><a href="prevulabs.html">PreVULabs.ai</a></li>
+      <li><a href="google.html">Google gTech</a></li>
+      <li><a href="mckinsey.html">McKinsey &amp; Novartis</a></li>
+      <li><a href="hcl.html">HCL Technologies</a></li>
+      <li><a href="osf.html">Hargreaves Lansdown</a></li>
+      <li><a href="pwc.html">PwC</a></li>
+      <li><a href="trowe.html">T. Rowe Price</a></li>
+      <li><a href="agencyvui.html">Agency VUi</a></li>
+      <li><a href="rentr.html">Rentr</a></li>
+      <li><a href="gumsaver.html">Gumsaver</a></li>
+      <li><a href="sparbar.html">Sparbar</a></li>
+      <li class="mobile-divider"></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#stack">Stack</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav><div class="case-hero">
+  <div class="case-hero-bg" style="background:linear-gradient(135deg,#0A0E0A 0%,#102010 50%,#1A3A1A 100%);"></div>
+  <div class="case-hero-overlay"></div>
+  <div class="case-hero-content">
+    <p class="case-eyebrow">2014 — 2015 · Enterprise UX · London</p>
+    <h1 class="case-title">GOOGLE<br>gTECH</h1>
+    <p class="case-subtitle">Codename: Strong Coffee. Redesigning internal platforms through which over a third of Google&#8217;s global ad revenue flowed — without breaking anything.</p>
+    <div class="case-meta"><div class="meta-item"><div class="meta-label">Role</div><div class="meta-value">Interaction Design Lead</div></div><div class="meta-item"><div class="meta-label">Team</div><div class="meta-value">gTech Engineering</div></div><div class="meta-item"><div class="meta-label">Revenue at stake</div><div class="meta-value">£100bn+ annually</div></div></div>
+  </div>
+</div><div class="case-body"><div class="case-section">
+  <div class="section-tag">Context</div>
+  <h2>The infrastructure through which a third of Google&#8217;s revenue flowed.</h2>
+  <p>gTech Engineering owned all mission-critical internal tooling at Google — the operational backbone used by sales teams, finance, and engineering to monitor and manage the ad revenue systems that fund everything Google does. <strong>If this breaks, Google&#8217;s revenue visibility breaks.</strong></p><p>The brief: merge two platforms — <em>gStatus</em> (real-time revenue alerting) and <em>Pelican</em> (ad revenue analytics) — into a single coherent experience, during a live infrastructure overhaul, without disrupting the teams who depended on these tools daily.</p>
+</div>
+<div class="case-section"><div class="pull-quote"><p>The constraint: make mission-critical data legible to a non-technical sales director who should never need to write a Dremel query.</p></div></div>
+<div class="case-section">
+  <div class="section-tag">The Design Problem</div>
+  <h2>Complex SQL workflows — made invisible.</h2>
+  <p>Pelican&#8217;s existing workflow required users to write Dremel queries (Google&#8217;s internal equivalent of SQL at scale) to get meaningful revenue data. This created a significant expertise barrier — <strong>the people who most needed the data were least equipped to retrieve it</strong>.</p><p>The solution was a layered drill-down interface: high-level revenue signals visible immediately, with progressive disclosure into granularity. <strong>No query. No export. No waiting for an analyst.</strong></p><p>gStatus required a different challenge — designing for anomaly detection and alert triage at scale. When a revenue signal goes red at 11pm, the on-call engineer needs to understand scope, probable cause, and affected systems at a glance.</p>
+</div>
+<div class="case-section">
+  <div class="section-tag">Process</div>
+  <h2>Engineering around constraints and bypass mechanisms.</h2>
+  <p>The infrastructure overhaul created a significant constraint: we were designing across conflicting frontend frameworks being migrated simultaneously. To maintain design fidelity, I personally engineered custom CSS and TypeScript components to bypass restrictive internal systems, delivering a clean, cohesive Material Design experience for £100bn+ ad-revenue dashboards. I also ran human-centred sprint prioritisation sessions with Senior Management and Engineering — keeping design grounded in what users actually needed rather than what was technically convenient to build.</p>
+</div>
+<div class="case-section"><div class="metrics"><div class="metric"><div class="metric-number">£100B+</div><div class="metric-label">Annual ad revenue flowing through redesigned platforms</div></div><div class="metric"><div class="metric-number">2</div><div class="metric-label">Mission-critical platforms merged into one coherent experience</div></div><div class="metric"><div class="metric-number">0</div><div class="metric-label">Dremel queries required by non-technical users post-launch</div></div></div></div>
+<div class="case-section"><div class="tag-list"><span class="tag">Enterprise UX</span><span class="tag">Data Visualisation</span><span class="tag">Drill-Down Navigation</span><span class="tag">Alert System Design</span><span class="tag">Human-Centred Sprint</span><span class="tag">Revenue Systems</span></div></div></div><a href="mckinsey.html" class="next-project">
+  <div><div class="next-label">Next Project</div><div class="next-title">McKinsey Digital</div></div>
+  <div class="next-arrow">→</div>
+</a><footer>
+  <p>© 2026 Pavan Kanwar · pavankanwar.co.uk</p>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/pavkanwar" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:pavank101@gmail.com">Email</a>
+  </div>
+</footer>
+<script src="../assets/main.js"></script>
+</body></html>
